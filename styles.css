@@ -1,63 +1,85 @@
-/* Import Google Fonts */
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f4f4f4;
+/* New Color Scheme */
+:root {
+    --cherry-red: #258EA6;
+    --bubblegum-pink: #549F93;
+    --soft-green: #9FAF90;
+    --pale-pink: #E2B1B1;
+    --lavender: #E2C2FF;
 }
 
-/* Navbar styling */
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--lavender);
+}
+
+/* Navbar */
 .navbar {
-    background-color: #D32F2F; /* Cherry Red */
+    background-color: var(--cherry-red);
 }
 
 .navbar-item {
     font-weight: bold;
-    font-family: 'Raleway', sans-serif;
 }
 
 .logo {
-    width: 200px;
+    width: 100px;
     height: auto;
 }
 
-/* Hero section */
+/* Hero Section */
 .hero {
-    background-color: #FF4081; /* Bubblegum Pink */
+    background-color: var(--bubblegum-pink);
     color: #fff;
 }
 
-/* Button styles */
+/* Buttons with Hover Wiggle Effect */
 .button.is-rounded {
-    background-color: #ffdd57;
+    background-color: var(--soft-green);
     border-color: transparent;
-    color: #000;
+    color: #fff;
+    transition: transform 0.2s;
 }
 
 .button.is-rounded:hover {
-    background-color: #FFD700;
+    background-color: var(--pale-pink);
+    transform: rotate(-5deg);
 }
 
-/* Section headings */
+/* Fancy Wiggle on Hover */
+.fancy-hover {
+    transition: transform 0.3s ease-in-out;
+}
+
+.fancy-hover:hover {
+    transform: rotate(2deg);
+}
+
+/* Section Headings */
 .title.is-3 {
-    color: #D32F2F;
+    color: var(--cherry-red);
 }
 
-.title.is-4 {
-    color: #FF4081;
+/* Pricing and Gallery */
+.box {
+    background-color: var(--lavender);
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.2s ease;
 }
 
-/* Map styling */
+.box:hover {
+    transform: scale(1.05);
+}
+
+/* Map */
 .map {
     width: 100%;
     height: 350px;
 }
 
-/* Footer styling */
+/* Footer */
 .footer {
-    background-color: #D32F2F;
+    background-color: var(--cherry-red);
     color: white;
-}
-
-/* Gallery styling */
-.image {
-    border-radius: 8px;
 }
