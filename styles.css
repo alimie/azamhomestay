@@ -1,0 +1,63 @@
+/* Import Google Fonts */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #D32F2F; /* Cherry Red */
+}
+
+.navbar-item {
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+/* Hero section */
+.hero {
+    background-color: #FF4081; /* Bubblegum Pink */
+    color: #fff;
+}
+
+/* Button styles */
+.button.is-rounded {
+    background-color: #ffdd57;
+    border-color: transparent;
+    color: #000;
+}
+
+.button.is-rounded:hover {
+    background-color: #FFD700;
+}
+
+/* Section headings */
+.title.is-3 {
+    color: #D32F2F;
+}
+
+.title.is-4 {
+    color: #FF4081;
+}
+
+/* Map styling */
+.map {
+    width: 100%;
+    height: 350px;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #D32F2F;
+    color: white;
+}
+
+/* Gallery styling */
+.image {
+    border-radius: 8px;
+}
